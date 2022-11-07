@@ -52,3 +52,9 @@ nav {
   margin: 10px;
 }
 
+.floatleft {
+  float: left;
+  clear: left;
+  margin: 10px;
+}
+

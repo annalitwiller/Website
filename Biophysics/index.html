@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset="utf-8">
+<meta name="Description" content="Sample Website for learning HTML5 and CSS3">
+<link rel="stylesheet" href="biophysics.css">
+<title>Biophysics</title>
+
+<script>
+function init() {
+  var loc = window.location.href;
+  var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+  var CSSvalidLinkStr =
+'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                        loc + '?profile=css3';
+  document.getElementById("vLink1").setAttribute("href",
+HTMLvalidLinkStr);
+  document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+}
+window.onload = init;
+</script>
+</head>
+<body>
+
+<header>
+<img 
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Stylised_atom_with_three_Bohr_model_orbits_and_stylised_nucleus.svg/200px-Stylised_atom_with_three_Bohr_model_orbits_and_stylised_nucleus.svg.png"
+alt="Atom"
+style="float:left;width:30px;height:30px;padding-left:10px;">
+<h1 style="padding-left:45px;">Biophysics</h1>
+</header>
+
+<nav>
+<ul>
+<li><a href="index.html">Main Page</a></li>
+<li><a href="aboutme.html">About Me</a></li>
+</ul>
+</nav> 
+
+<article>
+<h2>What is Biophysics?</h2>
+<img class="floatright" src="https://upload.wikimedia.org/wikipedia/commons/9/94/Protein_translation.gif" 
+height="114" alt="Protien Translation">
+Biophysics takes fundamental physics concepts and applies them to understand how biological systems work. Biophysicists take a much more quantitative 
+approach, looking at the data and calculations behind all of the experiments. This leads to much of the work being completed in labs with a focus on 
+genetics and cells as opposed to animals and plants. Despite not being mentioned by name, chemistry is also a necessity why working in 
+Biophysics. Much of the application of physics occurs when studying the various molecules present in many organisms and cells. This can 
+include looking at the biomolecules related to many disease such as Alzheimer’s disease, ALS (“Lou Gehrig’s disease”), HIV, diabetes, breast 
+cancer, and multiple sclerosis.</article> 
+
+<article>
+<h2>Protien Translation</h2>
+<video class="floatright" height="150" controls="controls">
+<source src="media/uCorp%20Tour.mp4" type="video/mp4" >
+Your browser does not support the HTML5 video element.
+</video>
+To the right you see an animation representing the process of protien translation that sees mRNA telling ribosomes within a cell what amino acids they should use to 
+build a protien. The mRNA is read by the ribosome and translated into these long chains of amino acid that become protiens. These protiens are then used to build up
+the structure in your body, such as the heart or lungs.
+</article>
+
+<article>
+<h2>Kinesin</h2>
+Another example of how biophysics can be applied is with the protien kinesin. It belongs to a class of motor protiens that move along the cytoplasm of eukariotic
+cells. Kinesins are powered by ATP(Adenosine triphosphate) to walk along microtublue filiments to 
+deliver cargo during 
+functions such as meiosis and mitosis. 
+
+<p>
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Kinesin_walking.gif"
+alt="Walk"
+style="float:left;height:150px;">
+</p>
+</article>
+
+<footer>
+<p>
+MORE INFO:
+</p>
+<p>
+<a href="https://www.biophysics.org/what-is-biophysics">Biophysical Society</a> |
+<a href="https://lsa.umich.edu/biophysics/about-us/what-is-biophysics.html">University of Michigan</a> |
+<a href="https://en.wikipedia.org/wiki/Biophysics">Wikapedia</a>
+</p>
+
+<p>
+<a id="vLink1"><strong> HTML </strong> Valid! </a> |
+<a id="vLink2"><strong> CSS </strong> Valid! </a>
+</p>
+
+<p>
+Copyright &copy; All rights reserved by... Me :)
+</p>
+
+</footer>
+
+</body>
+</html>

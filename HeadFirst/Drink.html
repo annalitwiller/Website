@@ -45,25 +45,24 @@ window.onload = init;
     <a id="vLink2"><strong> CSS </strong> Valid! </a>
 </footer>
 <script>
- let drink = "beverage";
- let lyrics = "";
- let cans = 99;
+let drink = "Energy Drink";
+let lyrics = "";
+let cans = 99;
 
 while (cans > 1) {
   lyrics += "<p>";
   lyrics += cans + " cans of " + drink + " on the wall <br>";
-  lyrics += cans + " cans of " + drink + "<br>";
+  lyrics += cans + " cans of " + drink + " on the wall <br>";
   lyrics += "Take one down, pass it around,";
   lyrics += "</p>";
   cans--;
 }
 lyrics += "<p>";
-lyrics += can + " can of " + drink + " on the wall <br>";
-lyrics += can + " can of " + drink + "<br>";
+lyrics += cans + " can of " + drink + " on the wall <br>";
+lyrics += cans + " can of " + drink + " on the wall <br>";
 lyrics += "Take one down, pass it around, no more cans of ";
-lyrics += drink + " on the wall D:";
+lyrics += drink + " on the wall :-(";
 lyrics += "</p>";
-
 document.getElementById("song").innerHTML = lyrics;
 </script>
 </body>

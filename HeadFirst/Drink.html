@@ -48,21 +48,20 @@ window.onload = init;
     let drink = "Beverage";
     let lyrics = "";
     let cans = 99;
-while (cans>1) {
-    lyrics += "<p>";
-    lyrics += lyrics + cans + "cans of" + drink + "on the wall <br>";
-    lyrics += lyrics + cans + "cans of" + drink + "<br>";
-    lyrics += lyrics + "Take one down, pass it around <br>";
-    lyrics += "</p>";
-    cans--;
+while (cans > 1) {
+  lyrics += "<p>";
+  lyrics += lyrics + cans + "cans of" + drink + "on the wall <br>";
+  lyrics += lyrics + cans + "cans of" + drink + "<br>";
+  lyrics += lyrics + "Take one down, pass it around <br>";
+  lyrics += "</p>";
+  cans--;
 }
-
-    lyrics += "<p>";
-    lyrics += lyrics + can + "can of" + drink + "on the wall <br>";
-    lyrics += lyrics + can + "can of" + drink + "<br>";
-    lyrics += lyrics + "Take one down, pass it around, no more cans of";
-    lyrics += drink + "on the wall D:";
-    lyrics += "</p>";
+lyrics += "<p>";
+lyrics += lyrics + can + "can of" + drink + "on the wall <br>";
+lyrics += lyrics + can + "can of" + drink + "<br>";
+lyrics += lyrics + "Take one down, pass it around, no more cans of";
+lyrics += drink + "on the wall D:";
+lyrics += "</p>";
 
 document.getElementById("song").innerHTML = lyrics;
 </script>

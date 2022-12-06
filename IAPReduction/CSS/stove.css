@@ -25,3 +25,13 @@ li a:hover {
 .active {
   background-color: #7ad1ef;
 }
+
+.floatright {
+  float: right;
+  clear: right;
+  margin: 10px;
+}
+
+article {	
+  padding: 10px;
+}

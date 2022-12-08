@@ -17,6 +17,14 @@ ul {
 li {
   float: left;
 }
+@font-face {
+  font-family: "Vollkron";
+  src: url(Vollkorn-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: 'Vollkron', sans-serif;
+} 
 
 li a {
   display: block;
@@ -44,6 +52,7 @@ li a:hover {
   float: left;
   clear: left;
   margin-right: 10px;
+  margin-bottom: 5px
 }
 
 article {	

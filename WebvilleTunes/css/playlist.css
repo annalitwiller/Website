@@ -1,0 +1,40 @@
+
+body {
+  font-size: 80%;
+  font-family: arial, helvetica, geneva, sans-serif;
+  border-style: dotted;
+  border-width: 5px;
+  border-color: #d4e9ff;
+}
+
+footer {
+  font-size: 80%;
+  text-align: center;
+  clear: both;
+  margin-top: 0;
+  padding: 0;
+}
+
+h1,h2 {
+  font-family: arial, helvetica, geneva, sans-serif;
+  margin-top: 5px; 
+  margin-bottom: 2px; 
+}
+
+.floatright {
+  float: right;
+  clear: right;
+  margin: 10px;
+}
+
+.floatleft {
+  float: left;
+  clear: left;
+  margin: 10px;
+}
+
+ul {
+  margin: 3;
+  padding: 2;
+  overflow: hidden;
+}

@@ -34,7 +34,7 @@ h1,h2 {
 }
 
 ul {
-  margin: 3;
-  padding: 2;
+  margin: 3px;
+  padding: 2px;
   overflow: hidden;
 }

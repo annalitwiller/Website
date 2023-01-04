@@ -20,7 +20,7 @@ function getSavedSongs () {
     return getStoreArray("playlist");
 }
 
-function getStoreArray (key) {
+function getStoreArray(key) {
     var playlistArray = localStorage.getItem("key");
     if (playlistArray == null || playlistArray == "") {
         playlistArray = new Array();
@@ -28,5 +28,4 @@ function getStoreArray (key) {
         playlistArray = JSON.parse(playlistArray);
     }
     return playlistArray;
-
 }

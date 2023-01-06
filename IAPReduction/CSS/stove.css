@@ -8,12 +8,21 @@ ul {
 
 .test {
   background-color: #FFFFFF;
-  list-style-type: disc;
   margin: 10;
   padding: 0;
   overflow: hidden;
   float: none;
 }
+
+.test2 {
+  list-style: disc;
+  background-color: #FFFFFF;
+  margin: 10;
+  padding: 0;
+  overflow: hidden;
+  float: none;
+}
+
 li {
   float: left;
 }
@@ -57,4 +66,13 @@ li a:hover {
 
 article {	
   padding: 10px;
+}
+
+h2 {
+  margin-bottom: 5px;
+  margin-top: 3px;
+}
+
+h1 {
+  margin-bottom: 3px;
 }

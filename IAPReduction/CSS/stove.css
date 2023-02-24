@@ -1,4 +1,4 @@
-ul {
+.new {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -25,6 +25,12 @@ ul {
   
 }
 
+.test3 {
+  margin: 10px;
+  overflow: hidden;
+  float: none;
+}
+
 li {
   float: left;
 }
@@ -33,11 +39,16 @@ li {
   src: url(Vollkorn-VariableFont_wght.ttf);
 }
 
-body {
+.sources {
+  padding: 5px;
+ }
+
+
+ body {
   font-family: 'Vollkron', sans-serif;
 } 
 
-li a {
+.news a {
   display: block;
   color: white;
   text-align: center;
@@ -59,11 +70,22 @@ li a:hover {
   clear: right;
   margin: 10px;
 }
+
+.floatright2 {
+  float: right;
+  clear: right;
+  margin-right: 300px;
+}
+
 .floatleft {
   float: left;
   clear: left;
   margin-right: 10px;
   margin-bottom: 5px
+}
+
+.mar {
+margin-left: 70px;
 }
 
 article {	

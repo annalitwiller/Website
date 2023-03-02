@@ -104,5 +104,9 @@ h1 {
 
 p{
   margin: 10px;
-  font-size: 15px;
+  font-size: 17px;
+}
+
+.bigger {
+  font-size: 20px;
 }
